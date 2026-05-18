@@ -1,0 +1,16 @@
+<?php
+
+function message($msg, $nom) {
+    echo "$msg, $nom!<br>";
+}
+
+message("Bonjour", "Asma");
+
+echo strpos("Hello, world!", "world") . "<br>";
+
+$nombre1 = -5;
+echo abs($nombre1) . "<br>";
+
+var_dump(checkdate(2, 29, 2024));
+
+?>
